@@ -12,12 +12,34 @@
 		B8345F0A171655D600641C3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F09171655D600641C3C /* CoreGraphics.framework */; };
 		B8345F10171655D600641C3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8345F0E171655D600641C3C /* InfoPlist.strings */; };
 		B8345F12171655D600641C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F11171655D600641C3C /* main.m */; };
-		B8345F16171655D600641C3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F15171655D600641C3C /* AppDelegate.m */; };
-		B8345F18171655D600641C3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8345F17171655D600641C3C /* Default.png */; };
-		B8345F1A171655D600641C3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8345F19171655D600641C3C /* Default@2x.png */; };
-		B8345F1C171655D600641C3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8345F1B171655D600641C3C /* Default-568h@2x.png */; };
-		B8345F1F171655D600641C3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F1E171655D600641C3C /* ViewController.m */; };
-		B8345F22171655D600641C3C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8345F20171655D600641C3C /* ViewController.xib */; };
+		B8345F291716567600641C3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F281716567600641C3C /* AppDelegate.m */; };
+		B8345F43171656C000641C3C /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F3F171656C000641C3C /* JASidePanelController.m */; };
+		B8345F44171656C000641C3C /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F41171656C000641C3C /* UIViewController+JASidePanel.m */; };
+		B8345F4C1716582300641C3C /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F4B1716582300641C3C /* GoogleMaps.framework */; };
+		B8345F4E1716585A00641C3C /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B8345F4D1716585A00641C3C /* GoogleMaps.bundle */; };
+		B8345F501716588100641C3C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F4F1716588100641C3C /* AVFoundation.framework */; };
+		B8345F521716588B00641C3C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F511716588B00641C3C /* CoreData.framework */; };
+		B8345F541716589500641C3C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F531716589500641C3C /* CoreLocation.framework */; };
+		B8345F561716589F00641C3C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F551716589F00641C3C /* CoreText.framework */; };
+		B8345F58171658A800641C3C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F57171658A800641C3C /* GLKit.framework */; };
+		B8345F5A171658B000641C3C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F59171658B000641C3C /* ImageIO.framework */; };
+		B8345F5C171658C100641C3C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F5B171658C100641C3C /* libc++.dylib */; };
+		B8345F5E171658CE00641C3C /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F5D171658CE00641C3C /* libicucore.dylib */; };
+		B8345F60171658D600641C3C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F5F171658D600641C3C /* libz.dylib */; };
+		B8345F62171658DF00641C3C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F61171658DF00641C3C /* OpenGLES.framework */; };
+		B8345F64171658E700641C3C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F63171658E700641C3C /* QuartzCore.framework */; };
+		B8345F66171658EF00641C3C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8345F65171658EF00641C3C /* SystemConfiguration.framework */; };
+		B8345F7117165F2E00641C3C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8345F7017165F2E00641C3C /* MainStoryboard.storyboard */; };
+		B8345F8317165FFF00641C3C /* MTSidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F8217165FFF00641C3C /* MTSidePanelController.m */; };
+		B8345F881716617A00641C3C /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F871716617A00641C3C /* LeftViewController.m */; };
+		B8345F8B1716622C00641C3C /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F8A1716622C00641C3C /* MenuItem.m */; };
+		B8345F8E1716628E00641C3C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F8D1716628E00641C3C /* MapViewController.m */; };
+		B8345F91171662F400641C3C /* RecordUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F90171662F400641C3C /* RecordUserViewController.m */; };
+		B8345F94171663E100641C3C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8345F93171663E100641C3C /* TableViewCell.m */; };
+		B8345F961716648E00641C3C /* logosymb.png in Resources */ = {isa = PBXBuildFile; fileRef = B8345F951716648E00641C3C /* logosymb.png */; };
+		B8345FA01716651800641C3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8345F9D1716651800641C3C /* Default-568h@2x.png */; };
+		B8345FA11716651800641C3C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8345F9E1716651800641C3C /* Default.png */; };
+		B8345FA21716651800641C3C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8345F9F1716651800641C3C /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +51,43 @@
 		B8345F0F171655D600641C3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8345F11171655D600641C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8345F13171655D600641C3C /* MiTaxi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiTaxi-Prefix.pch"; sourceTree = "<group>"; };
-		B8345F14171655D600641C3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B8345F15171655D600641C3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8345F17171655D600641C3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		B8345F19171655D600641C3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		B8345F1B171655D600641C3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B8345F1D171655D600641C3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B8345F1E171655D600641C3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B8345F21171655D600641C3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B8345F281716567600641C3C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../_MiTaxi/MiTaxi/AppDelegate.m; sourceTree = "<group>"; };
+		B8345F2A1716569B00641C3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../_MiTaxi/MiTaxi/AppDelegate.h; sourceTree = "<group>"; };
+		B8345F3E171656C000641C3C /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		B8345F3F171656C000641C3C /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		B8345F40171656C000641C3C /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		B8345F41171656C000641C3C /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		B8345F4B1716582300641C3C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		B8345F4D1716585A00641C3C /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		B8345F4F1716588100641C3C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B8345F511716588B00641C3C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B8345F531716589500641C3C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B8345F551716589F00641C3C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B8345F57171658A800641C3C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B8345F59171658B000641C3C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B8345F5B171658C100641C3C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B8345F5D171658CE00641C3C /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		B8345F5F171658D600641C3C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B8345F61171658DF00641C3C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B8345F63171658E700641C3C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B8345F65171658EF00641C3C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B8345F7017165F2E00641C3C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B8345F8117165FFF00641C3C /* MTSidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSidePanelController.h; sourceTree = "<group>"; };
+		B8345F8217165FFF00641C3C /* MTSidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSidePanelController.m; sourceTree = "<group>"; };
+		B8345F861716617A00641C3C /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		B8345F871716617A00641C3C /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		B8345F891716622C00641C3C /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		B8345F8A1716622C00641C3C /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		B8345F8C1716628E00641C3C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B8345F8D1716628E00641C3C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B8345F8F171662F400641C3C /* RecordUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordUserViewController.h; sourceTree = "<group>"; };
+		B8345F90171662F400641C3C /* RecordUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordUserViewController.m; sourceTree = "<group>"; };
+		B8345F92171663E100641C3C /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		B8345F93171663E100641C3C /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		B8345F951716648E00641C3C /* logosymb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logosymb.png; sourceTree = "<group>"; };
+		B8345F9D1716651800641C3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B8345F9E1716651800641C3C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B8345F9F1716651800641C3C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +95,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8345F66171658EF00641C3C /* SystemConfiguration.framework in Frameworks */,
+				B8345F64171658E700641C3C /* QuartzCore.framework in Frameworks */,
+				B8345F62171658DF00641C3C /* OpenGLES.framework in Frameworks */,
+				B8345F60171658D600641C3C /* libz.dylib in Frameworks */,
+				B8345F5E171658CE00641C3C /* libicucore.dylib in Frameworks */,
+				B8345F5C171658C100641C3C /* libc++.dylib in Frameworks */,
+				B8345F5A171658B000641C3C /* ImageIO.framework in Frameworks */,
+				B8345F58171658A800641C3C /* GLKit.framework in Frameworks */,
+				B8345F561716589F00641C3C /* CoreText.framework in Frameworks */,
+				B8345F541716589500641C3C /* CoreLocation.framework in Frameworks */,
+				B8345F521716588B00641C3C /* CoreData.framework in Frameworks */,
+				B8345F501716588100641C3C /* AVFoundation.framework in Frameworks */,
 				B8345F06171655D600641C3C /* UIKit.framework in Frameworks */,
 				B8345F08171655D600641C3C /* Foundation.framework in Frameworks */,
 				B8345F0A171655D600641C3C /* CoreGraphics.framework in Frameworks */,
+				B8345F4C1716582300641C3C /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +120,7 @@
 		B8345EF9171655D600641C3C = {
 			isa = PBXGroup;
 			children = (
+				B8345F3C171656C000641C3C /* Source */,
 				B8345F0B171655D600641C3C /* MiTaxi */,
 				B8345F04171655D600641C3C /* Frameworks */,
 				B8345F03171655D600641C3C /* Products */,
@@ -73,6 +138,20 @@
 		B8345F04171655D600641C3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8345F65171658EF00641C3C /* SystemConfiguration.framework */,
+				B8345F63171658E700641C3C /* QuartzCore.framework */,
+				B8345F61171658DF00641C3C /* OpenGLES.framework */,
+				B8345F5F171658D600641C3C /* libz.dylib */,
+				B8345F5D171658CE00641C3C /* libicucore.dylib */,
+				B8345F5B171658C100641C3C /* libc++.dylib */,
+				B8345F59171658B000641C3C /* ImageIO.framework */,
+				B8345F57171658A800641C3C /* GLKit.framework */,
+				B8345F551716589F00641C3C /* CoreText.framework */,
+				B8345F531716589500641C3C /* CoreLocation.framework */,
+				B8345F511716588B00641C3C /* CoreData.framework */,
+				B8345F4F1716588100641C3C /* AVFoundation.framework */,
+				B8345F4D1716585A00641C3C /* GoogleMaps.bundle */,
+				B8345F4B1716582300641C3C /* GoogleMaps.framework */,
 				B8345F05171655D600641C3C /* UIKit.framework */,
 				B8345F07171655D600641C3C /* Foundation.framework */,
 				B8345F09171655D600641C3C /* CoreGraphics.framework */,
@@ -83,11 +162,10 @@
 		B8345F0B171655D600641C3C /* MiTaxi */ = {
 			isa = PBXGroup;
 			children = (
-				B8345F14171655D600641C3C /* AppDelegate.h */,
-				B8345F15171655D600641C3C /* AppDelegate.m */,
-				B8345F1D171655D600641C3C /* ViewController.h */,
-				B8345F1E171655D600641C3C /* ViewController.m */,
-				B8345F20171655D600641C3C /* ViewController.xib */,
+				B8345F45171656E800641C3C /* App */,
+				B8345F461716570400641C3C /* Controllers */,
+				B8345F471716572500641C3C /* View */,
+				B8345F481716572F00641C3C /* Models */,
 				B8345F0C171655D600641C3C /* Supporting Files */,
 			);
 			path = MiTaxi;
@@ -96,15 +174,71 @@
 		B8345F0C171655D600641C3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8345F951716648E00641C3C /* logosymb.png */,
+				B8345F9D1716651800641C3C /* Default-568h@2x.png */,
+				B8345F9E1716651800641C3C /* Default.png */,
+				B8345F9F1716651800641C3C /* Default@2x.png */,
 				B8345F0D171655D600641C3C /* MiTaxi-Info.plist */,
 				B8345F0E171655D600641C3C /* InfoPlist.strings */,
 				B8345F11171655D600641C3C /* main.m */,
 				B8345F13171655D600641C3C /* MiTaxi-Prefix.pch */,
-				B8345F17171655D600641C3C /* Default.png */,
-				B8345F19171655D600641C3C /* Default@2x.png */,
-				B8345F1B171655D600641C3C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8345F3C171656C000641C3C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B8345F3E171656C000641C3C /* JASidePanelController.h */,
+				B8345F3F171656C000641C3C /* JASidePanelController.m */,
+				B8345F40171656C000641C3C /* UIViewController+JASidePanel.h */,
+				B8345F41171656C000641C3C /* UIViewController+JASidePanel.m */,
+			);
+			name = Source;
+			path = ../_MiTaxi/Source;
+			sourceTree = "<group>";
+		};
+		B8345F45171656E800641C3C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B8345F2A1716569B00641C3C /* AppDelegate.h */,
+				B8345F281716567600641C3C /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		B8345F461716570400641C3C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8345F8117165FFF00641C3C /* MTSidePanelController.h */,
+				B8345F8217165FFF00641C3C /* MTSidePanelController.m */,
+				B8345F861716617A00641C3C /* LeftViewController.h */,
+				B8345F871716617A00641C3C /* LeftViewController.m */,
+				B8345F8C1716628E00641C3C /* MapViewController.h */,
+				B8345F8D1716628E00641C3C /* MapViewController.m */,
+				B8345F8F171662F400641C3C /* RecordUserViewController.h */,
+				B8345F90171662F400641C3C /* RecordUserViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B8345F471716572500641C3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8345F7017165F2E00641C3C /* MainStoryboard.storyboard */,
+				B8345F92171663E100641C3C /* TableViewCell.h */,
+				B8345F93171663E100641C3C /* TableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B8345F481716572F00641C3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8345F891716622C00641C3C /* MenuItem.h */,
+				B8345F8A1716622C00641C3C /* MenuItem.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8345F10171655D600641C3C /* InfoPlist.strings in Resources */,
-				B8345F18171655D600641C3C /* Default.png in Resources */,
-				B8345F1A171655D600641C3C /* Default@2x.png in Resources */,
-				B8345F1C171655D600641C3C /* Default-568h@2x.png in Resources */,
-				B8345F22171655D600641C3C /* ViewController.xib in Resources */,
+				B8345F4E1716585A00641C3C /* GoogleMaps.bundle in Resources */,
+				B8345F7117165F2E00641C3C /* MainStoryboard.storyboard in Resources */,
+				B8345F961716648E00641C3C /* logosymb.png in Resources */,
+				B8345FA01716651800641C3C /* Default-568h@2x.png in Resources */,
+				B8345FA11716651800641C3C /* Default.png in Resources */,
+				B8345FA21716651800641C3C /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,8 +310,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8345F12171655D600641C3C /* main.m in Sources */,
-				B8345F16171655D600641C3C /* AppDelegate.m in Sources */,
-				B8345F1F171655D600641C3C /* ViewController.m in Sources */,
+				B8345F291716567600641C3C /* AppDelegate.m in Sources */,
+				B8345F43171656C000641C3C /* JASidePanelController.m in Sources */,
+				B8345F44171656C000641C3C /* UIViewController+JASidePanel.m in Sources */,
+				B8345F8317165FFF00641C3C /* MTSidePanelController.m in Sources */,
+				B8345F881716617A00641C3C /* LeftViewController.m in Sources */,
+				B8345F8B1716622C00641C3C /* MenuItem.m in Sources */,
+				B8345F8E1716628E00641C3C /* MapViewController.m in Sources */,
+				B8345F91171662F400641C3C /* RecordUserViewController.m in Sources */,
+				B8345F94171663E100641C3C /* TableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +331,6 @@
 				B8345F0F171655D600641C3C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B8345F20171655D600641C3C /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8345F21171655D600641C3C /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,9 +395,14 @@
 		B8345F26171655D600641C3C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiTaxi/MiTaxi-Prefix.pch";
 				INFOPLIST_FILE = "MiTaxi/MiTaxi-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -271,9 +411,14 @@
 		B8345F27171655D600641C3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiTaxi/MiTaxi-Prefix.pch";
 				INFOPLIST_FILE = "MiTaxi/MiTaxi-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
