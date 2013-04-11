@@ -34,7 +34,7 @@
 - (void) attemptRecord
 {
     [activityIndicator startAnimating];
-    NSString *strUrl = @"http://186.28.255.229/bogota/wstaxcenter.asmx/SetCustomerRecord?strUser=widetech&strPassword=widetech&strPhoneNumber=3123404444&strFullName=Andres Perez&strEmailAddress=kjdf@hotmail.com&strIMEI=21204234234132";
+    NSString *strUrl = @"http://************/bogota/wstaxcenter.asmx/SetCustomerRecord?strUser=widetech&strPassword=widetech&strPhoneNumber=3123404444&strFullName=Andres Perez&strEmailAddress=kjdf@hotmail.com&strIMEI=21204234234132";
     
     NSString *escaped = [strUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSLog(@"escaped = %@", escaped);
